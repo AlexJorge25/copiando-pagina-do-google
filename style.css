@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.container-nav {
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.container-nav a {
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+#nav-op {
+    margin-right: 20px;
+}
+.botao-apps {
+    border-radius: 35px;
+    border: none;
+    background-color: rgba(32,33,36,1);
+}
+.botao-login {
+    padding: 10px 25px 10px 25px;
+    border: none;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #8ab4f8;
+    border-radius: 3px;
+}
+.logo_google_grande {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.front {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.barra-de-pesquisa {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(192, 192, 192, 0.541);
+    border-radius: 25px;
+    padding: 5px 30px 5px 30px;
+}
+.barra-de-pesquisa input {
+    padding-left: 150px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-decoration: none;
+}
+
+.imagem-icones {
+    width: 25px;
+    margin: 3px;
+}
+.grid-botoes {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.grid-botoes button {
+    background-color:rgb(48, 49, 52);
+    border: none;
+    margin-left: 20px;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+footer {
+    display:;
+    flex-direction:;
+    justify-content: space-around;
+    
+}
