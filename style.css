@@ -21,10 +21,18 @@ header{
 #nav-op {
     margin-right: 20px;
 }
+#nav-op:hover {
+    text-decoration: underline;
+
+}
 .botao-apps {
-    border-radius: 35px;
+    padding: 3px;
+    border-radius: 30px;
     border: none;
     background-color: rgba(32,33,36,1);
+}
+.botao-apps:hover{
+    background-color: rgb(61, 61, 61);
 }
 .botao-login {
     padding: 10px 25px 10px 25px;
@@ -32,6 +40,11 @@ header{
     font-family:Arial, Helvetica, sans-serif;
     background-color: #8ab4f8;
     border-radius: 3px;
+    margin-right: 20px ;
+    transition: 2s;
+}
+.botao-login:hover{
+    background-color: #a4c7ff;
 }
 .logo_google_grande {
     display: flex;
@@ -80,10 +93,40 @@ header{
     color: white;
     padding: 10px 10px;
     border-radius: 5px;
+    
 }
 .grid-botoes button:hover{
-    border:1q solid white;
+    border:1px solid white;
 }
-.texto-footer{
-    
+footer {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(23, 23, 26);
+    width: 100%;
+    color: rgb(119, 119, 119);
+}
+#texto{
+    padding: 15px 25px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.137);
+}
+.textoprincipal h1{
+    font-size: 14px;
+}
+.textosecundario{
+    display: flex;
+    justify-content: space-between;
+}
+.textosecundario ul{
+    display: flex;
+}
+.textosecundario ul a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    margin-right: 35px;
+}
+.textosecundario ul a:hover{
+    text-decoration: underline;
 }
