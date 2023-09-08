@@ -49,9 +49,13 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid rgba(192, 192, 192, 0.541);
+    border: 1px solid rgba(182, 182, 182, 0.541);
     border-radius: 25px;
     padding: 5px 30px 5px 30px;
+}
+.barra-de-pesquisa:hover{
+    background-color: rgba(92, 91, 91, 0.479);
+    border: none;
 }
 .barra-de-pesquisa input {
     padding-left: 150px;
@@ -77,9 +81,9 @@ header{
     padding: 10px 10px;
     border-radius: 5px;
 }
-footer {
-    display:;
-    flex-direction:;
-    justify-content: space-around;
+.grid-botoes button:hover{
+    border:1q solid white;
+}
+.texto-footer{
     
 }
